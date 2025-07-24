@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summarizer + TTS",
+  "version": "1.0",
+  "description": "Summarize and download audio from YouTube videos using AI",
+  "permissions": ["downloads", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

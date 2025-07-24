@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Summarizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://img.icons8.com/color/48/youtube-play.png" alt="icon" />
+      <div>
+        <h1>YouTube Summarizer</h1>
+        <p>AI-powered video summaries with audio</p>
+      </div>
+    </div>
+
+    <input type="text" id="url" placeholder="Paste YouTube URL" />
+    <button id="summarizeBtn">Summarize & Speak</button>
+
+    <div class="progress" id="statusBox">Waiting for input...</div>
+
+    <div id="summaryBox" class="summary-card"></div>
+    <audio id="audioPlayer" controls></audio>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
