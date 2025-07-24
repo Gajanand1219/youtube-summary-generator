@@ -1,0 +1,132 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #00e0ff;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.url-input {
+  padding: 14px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.url-input::placeholder {
+  color: #aaa;
+}
+
+.submit-button {
+  padding: 12px 20px;
+  background: #00e0ff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #00b4cc;
+}
+
+.video-box {
+  margin-top: 25px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 224, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.02);
+}
+
+.yt-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00e0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yt-link:hover {
+  text-decoration: underline;
+}
+
+.summary-box {
+  margin-top: 30px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 4px solid #00e0ff;
+  color: #fff;
+  box-shadow: inset 0 0 10px rgba(0, 224, 255, 0.3);
+}
+
+.summary-box h2 {
+  margin-top: 0;
+  color: #00e0ff;
+}
+
+.summary-box p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
